@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(119, 131, 127);
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color:#ccc;
+    margin-top: 5rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.display{
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    margin: 20px 0px;
+}
+
+.display input{
+    text-align: right;
+    flex: 1;
+    font-size: 20px;
+    height: 15vh;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Button input{
+    background-color: #292727;
+    color:white;
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    box-shadow: rgba(153,153, 153,0.1),rgba(225,225,225, 1);
+    cursor: pointer;
+}
+
+ .Button .equal{
+    width: 45%;
+}
+
